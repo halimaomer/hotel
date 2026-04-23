@@ -1,0 +1,8 @@
+id;strasse;hausnummer;plz;ort;land;hotel_id
+1;Hauptstrasse;1;76133;Karlsruhe;Deutschland;1
+2;Bahnhofstrasse;5;10115;Berlin;Deutschland;20
+3;Marktplatz;10;80331;München;Deutschland;30
+4;Königstrasse;12;70173;Stuttgart;Deutschland;40
+5;Berliner Strasse;8;68159;Mannheim;Deutschland;50
+6;Friedrichstrasse;3;79098;Freiburg;Deutschland;60
+7;Hauptstrasse;25;89073;Ulm;Deutschland;70

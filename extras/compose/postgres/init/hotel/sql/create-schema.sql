@@ -1,0 +1,3 @@
+CREATE SCHEMA IF NOT EXISTS AUTHORIZATION hotel;
+
+ALTER ROLE hotel SET search_path = 'hotel';
