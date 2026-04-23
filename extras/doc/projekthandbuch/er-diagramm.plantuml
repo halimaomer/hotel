@@ -1,0 +1,41 @@
+' Preview durch <Alt>d
+
+@startuml ER Diagramm
+
+hide circle
+skinparam linetype ortho
+
+entity "Hotel" {
+  * id : integer <<generated>>
+  --
+  * name : text
+  * version: integer
+  * erzeugt : timestamp
+  * aktualisiert : timestamp
+}
+
+entity "Standort" {
+  * id : integer <<generated>>
+  --
+  * strasse : text
+  * hausnummer : text
+  * plz : text
+  * ort : text
+  * land : text
+  * hotel_id : integer <<FK>>
+}
+
+entity "Zimmer" {
+  * id : integer <<generated>>
+  --
+  * preis : decimal
+  * zimmernummer : text
+  * hotel_id : integer <<FK>>
+}
+
+Hotel ||--|| Standort
+Hotel ||--o{ Zimmer
+
+footer (c) Halima Omer, Alisa Knöbl
+
+@enduml
