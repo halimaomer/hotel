@@ -25,6 +25,7 @@ extras/compose/postgres/init/tls/server.key
 extras/bruno/javascript/environments
 src/config/resources/tls/key.pem
 src/beispiele.ts
+src/beispiele.mts
 src/beispiele-write.ts
 test/lasttest-locust/__pycache__
 test/lasttest-locust/.venv
